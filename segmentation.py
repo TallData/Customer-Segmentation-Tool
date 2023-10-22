@@ -164,7 +164,7 @@ for cluster, persona in personas.items():
 plt.figure(figsize=(8, 6))
 plt.scatter(X_pca[:, 0], X_pca[:, 1], c=colors, alpha=0.6, s=20)  # Use X_pca here
 plt.xlabel('Principal Component 1')
-plt.ylabel('Principal Component 2')
+plt.ylabel('Principal Component 2')d
 plt.title('Cluster Personas - Color Coded by Persona')
 plt.savefig('cluster_personas.png')
 plt.close()
